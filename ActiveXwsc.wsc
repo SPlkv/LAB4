@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<component>
+
+<registration
+	description="Func 1/x"
+	progid="Func1x.WSC"
+	version="1.00"
+	classid="{5540692a-af04-48e1-8184-92149c1bc456}"
+>
+</registration>
+
+<public>
+	<method name="FuncName">
+	</method>
+	<method name="TheFunc">
+		<PARAMETER name="x"/>
+	</method>
+</public>
+
+<implements type="Behavior" id="Behavior"/>
+
+<script language="VBScript">
+<![CDATA[
+
+function FuncName()
+	FuncName = "Func 1/x"
+end function
+
+function TheFunc(x)
+	TheFunc = 1/x
+end function
+
+]]>
+</script>
+
+</component>
